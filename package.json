@@ -1,0 +1,29 @@
+{
+	"name": "esm-env-robust",
+	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Tal500/esm-env-robust.git"
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/Tal500/esm-env-robust",
+	"author": "Tal Hadad",
+	"type": "module",
+	"exports": {
+		".": {
+			"types": "./index.d.ts",
+			"default": "./internal/safe-browser.js"
+		},
+		"./dev-fallback-false": {
+			"types": "./internal/safe.d.ts",
+			"default": "./internal/safe.js"
+		},
+		"./dev-fallback-true": {
+			"types": "./internal/safe.d.ts",
+			"default": "./internal/safe.js"
+		}
+	},
+	"dependencies": {
+		"esm-env": "^1.0.0"
+	}
+}
