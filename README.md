@@ -6,6 +6,8 @@ Like [esm-env](https://github.com/benmccann/esm-env), uses export conditions to 
 
 This project was motivated to solve issue [esm-env#1](https://github.com/benmccann/esm-env/issues/1), but works for wider audience.
 
+Demo of fallback in old environment: https://svelte.dev/repl/6ae4871d6a48460fb8be28afaf9a6e1d?version=3.54.0
+
 ## Usage
 
 1. Install with `npm install esm-env-robust`.
