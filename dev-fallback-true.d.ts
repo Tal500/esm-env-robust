@@ -1,2 +1,2 @@
 export const BROWSER: boolean;
-export const DEV: true;
+export const DEV: boolean;
