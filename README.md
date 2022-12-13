@@ -1,10 +1,10 @@
 # esm-env-robust
 
-Like `esm-env`, uses export conditions to return environment information in a way that works with major bundlers and runtimes,
+Like [esm-env](https://github.com/benmccann/esm-env), uses export conditions to return environment information in a way that works with major bundlers and runtimes,
  but this project is also 'robust' in the sense it have also a fallback bahaviour for older environments that doesn't support
  the `exports` fields in `package.json`.
 
-This project was motivated to solve issue esm-env#1, but works for wider audience.
+This project was motivated to solve issue [esm-env#1](https://github.com/benmccann/esm-env/issues/1), but works for wider audience.
 
 ## Usage
 
@@ -25,7 +25,7 @@ This project was motivated to solve issue esm-env#1, but works for wider audienc
         import { DEV, BROWSER } from 'esm-env-robust/dev-fallback-true';
         ```
 
-If you don't care about fallback behaviour for older environments at all, consider using the basic `esm-env` package instead.
+If you don't care about fallback behaviour for older environments at all, consider using the basic [esm-env](https://github.com/benmccann/esm-env) package instead.
 
 ## Fallback value of `BROWSER`
 
